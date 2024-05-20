@@ -1,8 +1,8 @@
 import avatar from "../assets/images/Rectangle-50.png";
-import Button from "./Button";
+
 export default function Features2() {
   return (
-    <section className="lg:py-20 grid lg:grid-cols-2 gap-8 max-w-screen-xl flex-wrap justify-between mx-auto lg:px-28">
+    <section className="lg:py-20 grid lg:grid-cols-2 gap-8 max-w-screen-xl flex-wrap justify-between mx-auto ">
       <div className="justify-end mt-5 box-border ml-auto ">
         <img src={avatar} alt="student" className="box-border w-auto" />
       </div>
@@ -17,8 +17,8 @@ export default function Features2() {
           waiting beyond. The world beckons; seize its grand offerings now!
         </p>
 
-        <div className="flex flex-row gap-4 bg-[#252B42] border border-gray-200 rounded-3xl md:p-2 md:gap-2">
-          <div className="flex justify-center items-center mx-3">
+        <div className="flex flex-row bg-[#252B42] border border-gray-200 rounded-3xl md:p-2 md:gap-2">
+          <div className="flex justify-center items-center p-4">
             <svg
               className="w-[48px] h-[48px] text-white"
               aria-hidden="true"
@@ -37,18 +37,18 @@ export default function Features2() {
               />
             </svg>
           </div>
-          <div className="flex flex-col">
+          <div className="flex flex-col p-4">
             <h2 className=" text-white text-base font-extrabold ">
               Interactive Courses
             </h2>
-            <p className="text-base font-normal text-gray-300  mb-4 tracking-wide">
+            <p className="text-base font-normal text-gray-300   tracking-wide">
               Things on a very small scale behave like nothing that you have any
               direct experience
             </p>
           </div>
         </div>
-        <div className="flex flex-row gap-4  rounded-lg md:p-2 md:gap-2">
-          <div className="flex justify-center items-center mx-3">
+        <div className="flex flex-row  rounded-lg md:p-2 md:gap-2">
+          <div className="flex justify-center items-center p-4">
             <svg
               className="w-[48px] h-[48px] text-gray-800"
               aria-hidden="true"
@@ -67,7 +67,7 @@ export default function Features2() {
               />
             </svg>
           </div>
-          <div className="flex flex-col">
+          <div className="flex flex-col p-4">
             <h2 className=" text-[#252B42] text-base font-extrabold ">
               Flexible Learning
             </h2>
@@ -77,8 +77,8 @@ export default function Features2() {
             </p>
           </div>
         </div>
-        <div className="flex flex-row gap-4  rounded-lg md:p-2 md:gap-2">
-          <div className="flex justify-center items-center mx-3">
+        <div className="flex flex-row  rounded-lg md:p-2 md:gap-2">
+          <div className="flex justify-center items-center p-4">
             <svg
               className="w-[48px] h-[48px] text-[#252B42]"
               aria-hidden="true"
@@ -97,7 +97,7 @@ export default function Features2() {
               />
             </svg>
           </div>
-          <div className="flex flex-col">
+          <div className="flex flex-col p-4">
             <h2 className=" text-[#252B42] text-base font-extrabold ">
               Interactive Courses
             </h2>

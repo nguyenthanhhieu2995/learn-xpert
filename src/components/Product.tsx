@@ -14,7 +14,7 @@ export default function Product({
 }: ProductsProps) {
   return (
     <div className="flex p-4 rounded-[8px] bg-white shadow-xl md:w-full lg:w-fit mt-6">
-      <img src={image} alt="" className="w-36 h-36 mr-4" />
+      <img src={image} alt="" className="w-36 h-36 mr-2" />
       <div className="flex flex-col justify-center p-6">
         <h3 className=" not-italic font-bold text-xl leading-[34px] order-none flex-grow-0 mb-1 tracking-wide">
           {name}

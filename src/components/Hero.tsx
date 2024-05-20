@@ -5,7 +5,7 @@ export default function Hero() {
     <section className="lg:py-6 grid md:grid-cols-2 gap-8 max-w-screen-xl flex-wrap items-center justify-between mx-auto p-4">
       <div className="box-border py-8 px-2 mx-auto max-w-screen-xl  lg:mr-20">
         <h2 className="mb-4 text-4xl not-italic font-extrabold tracking-tight text-[#252B42]  md:text-5xl lg:text-6xl ">
-          Unlock Your Learning Potential with{" "}
+          Unlock Your Learning Potential with
           <span className="text-[#23856D]">LearnXpert</span>.
         </h2>
         <p className="text-lg font-normal text-gray-500 dark:text-gray-400 my-10 tracking-widest ">
@@ -17,7 +17,7 @@ export default function Hero() {
           <Button text="Get Started" />
         </div>
         <div className="flex flex-row justify-between">
-          <div className="items-center flex mx-6">
+          <div className="items-center flex">
             <input
               id="default-checkbox"
               type="checkbox"
@@ -31,7 +31,7 @@ export default function Hero() {
               Make a Claim
             </label>
           </div>
-          <div className="items-center flex mx-6">
+          <div className="items-center flex">
             <input
               id="default-checkbox"
               type="checkbox"
