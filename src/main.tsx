@@ -6,27 +6,25 @@ import Products from "./components/Products";
 import Features2 from "./components/Features2";
 import Pricing from "./components/Pricing";
 import Testimonials from "./components/Testimonials";
-import CalltoAction from "./components/CalltoAction";
-import Desktop from "./components/Desktop";
+import CallToAction from "./components/CalltoAction";
+
 import Footer from "./components/Footer";
 import "./style.css";
-
-
-
+import Hero from "./components/Hero";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
- 
   <React.StrictMode>
-      
-      <Header/>
-      <Features/>
-      <Products/>
-      <Features2/>
-      <Pricing/>
-      <Testimonials/>
-      <CalltoAction/>
-      <Desktop/>
+    <div className="container bg-[#E9FFFA] max-w-full   w-screen px-4 md:px-20 ">
+      <Header />
+      <Hero />
+      <Features />
+      <Products />
+      <Features2 />
+      <Pricing />
+      <Testimonials />
+      <CallToAction />
+
       <Footer />
-    
-  </React.StrictMode>,
+    </div>
+  </React.StrictMode>
 );

@@ -1,4 +1,4 @@
-export default function CalltoAction() {
+export default function CallToAction() {
     return (
         <div></div>
     )
