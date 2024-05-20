@@ -49,7 +49,7 @@ export default function Products() {
   return (
     <>
       <div className="flex flex-row justify-between items-center  max-w-screen-xl mx-auto p-4"> 
-        <h2 className="not-italic font-bold text-5xl text-[#252B42] basis-1/3">Explore Featured Products</h2>
+        <h2 className="not-italic font-bold text-5xl text-[#252B42]">Explore Featured <br /> Products</h2>
         <a  href="#" className="text-[#252B42] font-bold order-none flex-grow-0 text-2xl tracking-wide mx-10 hover:bg-gray-100 hover:bg-transparent hover:text-sky-600">View All</a>
       </div>
       <div className="flex flex-row justify-between  items-center flex-wrap max-w-screen-xl mx-auto p-4">

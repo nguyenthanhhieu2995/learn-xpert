@@ -41,7 +41,7 @@ const FEATURES = [
     ),
   },
   {
-    title: "Choose Courses",
+    title: "Learn at your own pace",
     description: "The gradual accumulation of information about atomic.",
     icon: (
       <svg
