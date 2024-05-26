@@ -55,7 +55,7 @@ export default function Products() {
       <div className="flex flex-row justify-between  items-center flex-wrap max-w-screen-xl mx-auto p-4">
         {PRODUCTS.map((product, idx) => (
           <Product
-            key={idx}
+            key={product.name + idx}
             image={product.image}
             name={product.name}
             author={product.author}

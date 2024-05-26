@@ -1,5 +1,11 @@
 import Button from "./Button";
+import ShowInfo from "./ShowInfo";
+import { useState } from "react";
 export default function CallToAction() {
+  const [state,setState] = useState(false)
+  const handleClick = () => {
+    setState(!state)
+  }
   return (
     <section className="lg:py-20 grid lg:grid-cols-2 gap-8 max-w-screen-xl mx-auto">
       <div className="pl-28 justify-self-end mt-5 box-border ml-auto ">
@@ -12,7 +18,8 @@ export default function CallToAction() {
         </p>
       </div>
       <div className=" m-auto">
-        <Button text="Get Started" />
+        <Button text="Toggle" onClick={handleClick} />
+        { state && <ShowInfo /> }
       </div>
     </section>
   );
