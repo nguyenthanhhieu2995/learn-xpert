@@ -29,9 +29,9 @@ export default function Pricing() {
         </div>
         <div className="space-y-8 lg:grid lg:grid-cols-3 sm:gap-3 lg:space-y-0 px-4">
           {
-            PRICE.map((price, idx) => (
+            PRICE.map((price) => (
               <PriceItem
-                key={idx}
+                key={price.name}
                 name={price.name}
                 price={`${price.price.toString()}$`}
               />

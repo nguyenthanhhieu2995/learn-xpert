@@ -11,6 +11,7 @@ import CallToAction from "./components/CalltoAction";
 import Footer from "./components/Footer";
 import "./style.css";
 import Hero from "./components/Hero";
+import Todos from "./components/Todos";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
@@ -23,7 +24,6 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
       <Pricing />
       <Testimonials />
       <CallToAction />
-
       <Footer />
     </div>
   </React.StrictMode>

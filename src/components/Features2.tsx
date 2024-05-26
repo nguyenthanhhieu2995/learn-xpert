@@ -17,7 +17,7 @@ export default function Features2() {
           waiting beyond. The world beckons; seize its grand offerings now!
         </p>
 
-        <div className="flex flex-row bg-[#252B42] border border-gray-200 rounded-3xl md:p-2 md:gap-2">
+        <div className="flex flex-row bg-[#252B42] border rounded-3xl md:p-2 md:gap-2">
           <div className="flex justify-center items-center p-4">
             <svg
               className="w-[48px] h-[48px] text-white"
@@ -30,9 +30,9 @@ export default function Features2() {
             >
               <path
                 stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 d="M3 15v4m6-6v6m6-4v4m6-6v6M3 11l6-5 6 5 5.5-5.5"
               />
             </svg>
@@ -47,7 +47,7 @@ export default function Features2() {
             </p>
           </div>
         </div>
-        <div className="flex flex-row  rounded-lg md:p-2 md:gap-2">
+        <div className="flex flex-row  rounded-3xl md:p-2 md:gap-2">
           <div className="flex justify-center items-center p-4">
             <svg
               className="w-[48px] h-[48px] text-gray-800"
@@ -60,9 +60,9 @@ export default function Features2() {
             >
               <path
                 stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="0.9"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="0.9"
                 d="M8.5 11.5 11 14l4-4m6 2a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
               />
             </svg>
@@ -77,7 +77,7 @@ export default function Features2() {
             </p>
           </div>
         </div>
-        <div className="flex flex-row  rounded-lg md:p-2 md:gap-2">
+        <div className="flex flex-row  rounded-3xl md:p-2 md:gap-2">
           <div className="flex justify-center items-center p-4">
             <svg
               className="w-[48px] h-[48px] text-[#252B42]"
@@ -90,9 +90,9 @@ export default function Features2() {
             >
               <path
                 stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="0.9"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="0.9"
                 d="M11 16v-5.5A3.5 3.5 0 0 0 7.5 7m3.5 9H4v-5.5A3.5 3.5 0 0 1 7.5 7m3.5 9v4M7.5 7H14m0 0V4h2.5M14 7v3m-3.5 6H20v-6a3 3 0 0 0-3-3m-2 9v4m-8-6.5h1"
               />
             </svg>
